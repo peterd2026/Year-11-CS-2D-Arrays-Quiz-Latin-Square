@@ -26,24 +26,20 @@ public class LatinSquare {
     /**
      *
      * @param array2d
-     * @param checkSum1
-     * @param checkSum2
-     * @return whether or not every row's sum in array2d is equal to checkSum1,
-     *         AND that every row's product in array2d is equal to checkSum2
+     * @return whether or not every row's sum in array2d is equal to targetCheckSum1(),
+     *         AND that every row's product in array2d is equal to targetCheckSum2()
      */
-    public static boolean isLatinRows(int[][] array2d, int checkSum1, int checkSum2) {
+    public static boolean isLatinRows(int[][] array2d) {
         return false;
     }
 
     /**
      *
      * @param array2d
-     * @param checkSum1
-     * @param checkSum2
-     * @return whether or not every column's sum in array2d is equal to checkSum1,
-     *         AND that every column's product in array2d is equal to checkSum2
+     * @return whether or not every column's sum in array2d is equal to targetCheckSum1(),
+     *         AND that every column's product in array2d is equal to targetCheckSum2()
      */
-    public static boolean isLatinColumns(int[][] array2d, int checkSum1, int checkSum2) {
+    public static boolean isLatinColumns(int[][] array2d) {
         return false;
     }
 

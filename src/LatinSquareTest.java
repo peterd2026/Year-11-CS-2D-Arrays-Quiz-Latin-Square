@@ -106,42 +106,26 @@ class LatinSquareTest {
 
     @org.junit.jupiter.api.Test
     void isLatinRows() {
-        assertTrue(LatinSquare.isLatinRows(array2d, LatinSquare.targetCheckSum1(array2d.length),
-                LatinSquare.targetCheckSum2(array2d.length)) == true);
-        assertTrue(LatinSquare.isLatinRows(array2d2, LatinSquare.targetCheckSum1(array2d2.length),
-                LatinSquare.targetCheckSum2(array2d2.length)) == true);
-        assertTrue(LatinSquare.isLatinRows(array2d3, LatinSquare.targetCheckSum1(array2d3.length),
-                LatinSquare.targetCheckSum2(array2d3.length)) == true);
-        assertTrue(LatinSquare.isLatinRows(array2d4, LatinSquare.targetCheckSum1(array2d4.length),
-                LatinSquare.targetCheckSum2(array2d4.length)) == true);
-        assertTrue(LatinSquare.isLatinRows(array2d5, LatinSquare.targetCheckSum1(array2d5.length),
-                LatinSquare.targetCheckSum2(array2d5.length)) == true);
-        assertTrue(LatinSquare.isLatinRows(array2d6, LatinSquare.targetCheckSum1(array2d6.length),
-                LatinSquare.targetCheckSum2(array2d6.length)) == true);
-        assertTrue(LatinSquare.isLatinRows(array2d7, LatinSquare.targetCheckSum1(array2d7.length),
-                LatinSquare.targetCheckSum2(array2d7.length)) == false);
-        assertTrue(LatinSquare.isLatinRows(array2d8, LatinSquare.targetCheckSum1(array2d8.length),
-                LatinSquare.targetCheckSum2(array2d8.length)) == false);
+        assertTrue(LatinSquare.isLatinRows(array2d) == true);
+        assertTrue(LatinSquare.isLatinRows(array2d2) == true);
+        assertTrue(LatinSquare.isLatinRows(array2d3) == true);
+        assertTrue(LatinSquare.isLatinRows(array2d4) == true);
+        assertTrue(LatinSquare.isLatinRows(array2d5) == true);
+        assertTrue(LatinSquare.isLatinRows(array2d6) == true);
+        assertTrue(LatinSquare.isLatinRows(array2d7) == false);
+        assertTrue(LatinSquare.isLatinRows(array2d8) == false);
     }
 
     @org.junit.jupiter.api.Test
     void isLatinColumns() {
-        assertTrue(LatinSquare.isLatinColumns(array2d, LatinSquare.targetCheckSum1(array2d.length),
-                LatinSquare.targetCheckSum2(array2d.length)) == true);
-        assertTrue(LatinSquare.isLatinColumns(array2d2, LatinSquare.targetCheckSum1(array2d2.length),
-                LatinSquare.targetCheckSum2(array2d2.length)) == true);
-        assertTrue(LatinSquare.isLatinColumns(array2d3, LatinSquare.targetCheckSum1(array2d3.length),
-                LatinSquare.targetCheckSum2(array2d3.length)) == true);
-        assertTrue(LatinSquare.isLatinColumns(array2d4, LatinSquare.targetCheckSum1(array2d4.length),
-                LatinSquare.targetCheckSum2(array2d4.length)) == true);
-        assertTrue(LatinSquare.isLatinColumns(array2d5, LatinSquare.targetCheckSum1(array2d5.length),
-                LatinSquare.targetCheckSum2(array2d5.length)) == false);
-        assertTrue(LatinSquare.isLatinColumns(array2d6, LatinSquare.targetCheckSum1(array2d6.length),
-                LatinSquare.targetCheckSum2(array2d6.length)) == false);
-        assertTrue(LatinSquare.isLatinColumns(array2d7, LatinSquare.targetCheckSum1(array2d7.length),
-                LatinSquare.targetCheckSum2(array2d7.length)) == true);
-        assertTrue(LatinSquare.isLatinColumns(array2d8, LatinSquare.targetCheckSum1(array2d8.length),
-                LatinSquare.targetCheckSum2(array2d8.length)) == false);
+        assertTrue(LatinSquare.isLatinColumns(array2d) == true);
+        assertTrue(LatinSquare.isLatinColumns(array2d2) == true);
+        assertTrue(LatinSquare.isLatinColumns(array2d3) == true);
+        assertTrue(LatinSquare.isLatinColumns(array2d4) == true);
+        assertTrue(LatinSquare.isLatinColumns(array2d5) == false);
+        assertTrue(LatinSquare.isLatinColumns(array2d6) == false);
+        assertTrue(LatinSquare.isLatinColumns(array2d7) == true);
+        assertTrue(LatinSquare.isLatinColumns(array2d8) == false);
     }
 
     @org.junit.jupiter.api.Test
