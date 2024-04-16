@@ -30,8 +30,8 @@ Here is an example of a 4x4 Latin square:
 | **3** | **1** | **2** | **4** |
 | **4** | **2** | **1** | **3** |
 
-The sum of each row and each column all add up to 10.<br>
-The product of each row and each column all give 24.<br>
+In each row and each column, the elements add up to a total of 10.<br>
+In each row and each column, the elements multiply together to get a product of 24.<br>
 NOTE: not all Latin squares are diagonal (i.e. the main diagonals each meet the requirement that all N symbols appear exactly once). For example, diagonal Latin squares do not exist for 2x2 or 3x3.
 
 
